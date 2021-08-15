@@ -18,7 +18,7 @@ var arr2 = [[280,490],[314,490],[346,490],[379,487],[410,486],[429,486],[455,484
 
 
 
-nCars = 50;
+nCars = 250;
 let cars = [];
 class Car {
     constructor(x, y, flag, speed, angle, score)
@@ -43,7 +43,7 @@ class Car {
     }
 }
 for(let i = 0; i < nCars; i++){
-    cars.push(new Car(300 + Math.random(-10,10), 525 + Math.random(-10,10), true, 10, 0, 4));
+    cars.push(new Car(300 + Math.random(-10,10), 525 + Math.random(-10,10), true, 3, 0, 4));
 }
 
 let car1 = new Car(300, 525, true, 1, 0, 4)
